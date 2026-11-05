@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#edf5ef">
+<title>1800-Tal: Industrialisering &amp; Imperialism · Kalles Quizportal</title>
+<style>
+:root{--bg:#f4f7f3;--paper:#fff;--ink:#233a30;--muted:#61786a;--green:#357456;--deep:#24543e;--line:#dce8dd;--soft:#eaf4ec;--light:#f5faf5;--red:#a44640;--redbg:#fff0ed;--shadow:0 15px 40px #203d2b0a;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}*{box-sizing:border-box}body{margin:0;line-height:1.55}button,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.48;cursor:default}a{color:var(--green)}.shell{max-width:1100px;margin:auto;padding:25px 23px 85px}.topnav{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin:0 0 25px}.back{font-weight:650;text-decoration:none;font-size:14px}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--green);font-weight:750}.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#e5f1e8 0%,#f4f9f3 100%);border:1px solid #d3e4d6;border-radius:26px;padding:39px 43px 38px;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;right:-68px;top:-110px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,#a9d0b545,transparent 70%);pointer-events:none}.hero h1{font-family:Georgia,serif;letter-spacing:-.03em;line-height:1.13;font-size:clamp(31px,4.6vw,52px);font-weight:600;margin:12px 0 15px;max-width:800px}.hero p{max-width:650px;color:#567260;margin:0;font-size:16px}.hero .decor{position:absolute;right:34px;bottom:10px;font-family:Georgia,serif;font-size:110px;color:#b4d3bc55;line-height:1;pointer-events:none}.modecards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin:23px 0 26px}.mode{border:1px solid var(--line);border-radius:20px;background:var(--paper);padding:24px;text-align:left;display:flex;flex-direction:column;align-items:flex-start;gap:10px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}.mode:hover{transform:translateY(-2px);border-color:#b1d0ba}.mode.active{background:#f0f8f1;border:2px solid #83b596;padding:23px}.mode .ico{width:43px;height:43px;border-radius:13px;background:#e7f2e9;display:grid;place-items:center;color:var(--green);font-size:22px}.mode strong{font-size:20px}.mode .desc{font-size:14px;color:var(--muted)}.mode .small{font-size:12px;font-weight:700;color:var(--green);margin-top:auto}.panel{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:var(--shadow)}.sectionTitle{font-family:Georgia,serif;font-size:29px;font-weight:600;line-height:1.25;margin:0 0 8px}.sub{color:var(--muted);font-size:14px;margin:0 0 23px}.training{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(250px,1fr);gap:18px}.minihead{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:13px;font-weight:700;margin-bottom:14px}.flash{width:100%;min-height:265px;border:1px solid #cbded0;background:linear-gradient(150deg,#f9fcf9,#e7f3e9);border-radius:16px;padding:24px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:18px;text-align:center;color:var(--ink)}.flash:hover{border-color:#93bda0}.flash .face{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:750;color:var(--green)}.flash strong{font-size:clamp(21px,2.6vw,30px);line-height:1.35}.flash.flipped strong{font-size:clamp(16px,2vw,21px);font-weight:550}.flash .tip{font-size:12px;color:var(--muted)}.row{display:flex;gap:9px;flex-wrap:wrap}.row>*{flex:1}.btn{padding:12px 15px;border-radius:11px;border:1px solid #d1e0d5;background:#fff;color:var(--deep);font-weight:700;transition:background .12s}.btn:hover:not(:disabled){background:#f0f7f1}.btn.primary{background:var(--green);border-color:var(--green);color:#fff}.btn.primary:hover:not(:disabled){background:var(--deep)}.btn.warn{color:#9a4a39}.flashActions{margin-top:12px}.sort{margin-top:19px;padding-top:16px;border-top:1px solid var(--line)}.sort p{font-size:14px;color:var(--muted);margin:0 0 10px}.sort .btn{font-size:13px}.stat{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #edf1ed;padding:12px 0;color:var(--muted);font-size:14px}.stat b{font-size:21px;color:var(--ink)}.bar{height:10px;border-radius:10px;background:#e5eee7;overflow:hidden;margin:19px 0 8px}.bar>i{display:block;height:100%;background:var(--green);width:0;transition:width .2s}.quiet{font-size:13px;color:var(--muted)}.reset{background:none;border:0;text-decoration:underline;color:#86685b;padding:0;margin-top:21px;font-size:13px}.catalog{margin-top:24px}.cataloghead{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:15px}.cataloghead h3{margin:0;font-size:20px}.search{border:1px solid #cdded0;border-radius:11px;padding:12px;min-width:240px;background:#fff}.glossary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.glossary details{border:1px solid var(--line);border-radius:12px;padding:13px 16px;background:#fff}.glossary summary{cursor:pointer;font-weight:700}.glossary p{font-size:14px;color:var(--muted);margin:10px 0 0}.quizIntro{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}.pills{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 24px}.pill{border-radius:99px;background:#edf5ee;color:#426b50;padding:6px 12px;font-size:12px;font-weight:700}.quizLead{max-width:660px}.quizLead p{color:var(--muted);margin:0}.start{min-width:190px}.progressRow{display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:13px;color:var(--muted);font-weight:700}.progress{height:8px;background:#e6eee7;border-radius:10px;overflow:hidden;margin:13px 0 27px}.progress i{display:block;height:100%;background:var(--green);transition:width .2s}.questionType{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);font-weight:750}.question{font-size:clamp(19px,2.4vw,25px);font-weight:680;line-height:1.45;margin:12px 0 23px}.answers{display:grid;gap:11px}.answer{display:flex;align-items:flex-start;gap:13px;text-align:left;width:100%;border:1px solid #d5e3d8;border-radius:13px;background:#fff;padding:15px 16px;color:var(--ink);line-height:1.5}.answer:not(:disabled):hover{border-color:#7fac8d;background:#f5faf6}.answer .letter{flex:none;display:grid;place-items:center;width:27px;height:27px;border-radius:8px;background:#eaf3ec;color:var(--green);font-weight:800;font-size:12px}.answer.correct{border-color:#64a57a;background:#eef8f0}.answer.wrong{border-color:#d99b94;background:var(--redbg)}.answer.correct .letter{background:#d5eeda}.answer.wrong .letter{background:#f4d8d4;color:var(--red)}.feedback{margin-top:19px;border-radius:13px;padding:18px 20px;border:1px solid #cfe5d4;background:#f1f9f2}.feedback.bad{background:#fff5f2;border-color:#edd5cf}.feedback strong{display:block;margin-bottom:7px}.feedback p{margin:0;color:#536c5c}.feedback.bad p{color:#765d58}.quizNav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:24px;flex-wrap:wrap}.score{font-family:Georgia,serif;font-size:68px;line-height:1.1;color:var(--green);margin:12px 0}.resultGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:24px 0}.resultGrid>div{background:#f2f8f3;border-radius:12px;padding:15px}.resultGrid strong{display:block;font-size:24px}.resultGrid span{font-size:12px;color:var(--muted)}.reviewItem{padding:17px 0;border-top:1px solid var(--line)}.reviewItem h4{margin:0 0 7px;font-size:15px}.reviewItem p{margin:5px 0;font-size:13px;color:var(--muted)}.reviewItem .badText{color:#a24741}.reviewItem .goodText{color:#2d7950}.foot{margin-top:27px;color:#7a8b7e;font-size:12px}.hidden{display:none!important}button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #85bd97;outline-offset:3px}@media(max-width:760px){.shell{padding:16px 13px 55px}.hero{padding:29px 24px}.hero .decor{display:none}.modecards,.training,.glossary{grid-template-columns:1fr}.panel{padding:19px}.mode{padding:20px}.mode.active{padding:19px}.flash{min-height:245px}.quizIntro .start{width:100%}.resultGrid{gap:6px}.resultGrid>div{padding:10px}.resultGrid strong{font-size:20px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Avskalad startsida i Quizportalens stil */
+.hero{max-width:860px;margin:38px auto 0;text-align:center;background:transparent;border:0;box-shadow:none;padding:20px 12px 16px;border-radius:0}
+.hero:after{display:none}.hero h1{margin:0 auto;max-width:750px;font-size:clamp(30px,4vw,48px)}
+.modecards{max-width:780px;margin:30px auto 0;gap:20px}
+.mode{min-height:185px;align-items:center;justify-content:center;text-align:center;gap:18px;border-radius:20px;padding:30px;background:#fff}
+.mode .ico{width:60px;height:60px;font-size:29px;border-radius:17px}.mode strong{font-family:Georgia,serif;font-size:25px;font-weight:600}
+.exerciseBack{margin:0 0 22px}.exerciseBack .btn{font-size:13px;padding:9px 13px}
+@media(max-width:760px){.hero{margin-top:14px}.modecards{grid-template-columns:1fr;margin-top:20px;gap:12px}.mode{min-height:130px;padding:20px}.mode strong{font-size:23px}}
+.quizInstructions{color:var(--muted);font-size:14px;line-height:1.65;margin:0 0 23px;max-width:760px}
+.listAction{margin-top:20px;display:flex;justify-content:flex-start}.termListPanel{max-width:900px;margin:auto}.termListActions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}.termListEntries{display:grid;gap:0}.termEntry{padding:14px 0;border-bottom:1px solid var(--line);break-inside:avoid;page-break-inside:avoid}.termEntry h3{font-size:16px;margin:0 0 4px;color:var(--deep)}.termEntry p{margin:0;font-size:14px;line-height:1.55}.termEntry:last-child{border-bottom:0}
+@media print{@page{size:A4;margin:16mm 18mm}body{background:#fff!important;color:#222!important}.shell{max-width:none;padding:0!important}.topnav,.hero,.modecards,.exerciseBack,#cardsSection,#quizSection,.termListActions{display:none!important}#termListSection,#termListSection.hidden{display:block!important}.termListPanel{border:0;box-shadow:none;padding:0;max-width:none}.sectionTitle{font-size:24px}.termEntry{padding:9px 0;border-bottom:1px solid #ddd}.termEntry h3{font-size:12px;color:#222}.termEntry p{font-size:11px;line-height:1.4}.termListPanel .sub{font-size:11px;margin-bottom:12px}}
+
+/* Historia: samma blå färgskala som Kalles Quizportal. */
+:root{--bg:#f3f6fc;--ink:#102846;--muted:#526783;--green:#194ba5;--deep:#17418d;--line:#d8e4f8;--soft:#eaf1ff;--light:#f5f8ff;--shadow:0 15px 40px #193d760a}
+.hero{background:linear-gradient(120deg,#eaf1ff 0%,#f6f9ff 100%);border-color:#c8daff}.hero:after{background:radial-gradient(circle,#b4cdf855,transparent 70%)}.hero .decor{color:#a9c4f355}.hero p{color:#526783}
+.mode:hover{border-color:#abc5ef}.mode.active{background:#eef4ff;border-color:#7ea5e7}.mode .ico{background:#eaf1ff}
+.flash{border-color:#c8daff;background:linear-gradient(150deg,#fafcff,#eaf1ff)}.flash:hover{border-color:#8aace6}
+.btn{border-color:#c8daff;color:var(--deep)}.btn:hover:not(:disabled){background:#eef4ff}.btn.primary:hover:not(:disabled){background:#143b80}
+.bar{background:#e4ecfa}.stat{border-bottom-color:#eaf0f9}.search{border-color:#c8daff}.pill{background:#eaf1ff;color:#174ca6}
+.progress{background:#e4ecfa}.answer{border-color:#d2e0f6}.answer:not(:disabled):hover{border-color:#83a9e9;background:#f4f8ff}.answer .letter{background:#eaf1ff}.resultGrid>div{background:#edf4ff}.foot{color:#7185a5}
+</style>
+</head>
+<body>
+<main class="shell">
+<nav class="topnav"><a class="back" href="https://karlzetterlund.github.io/kallesquizportal/">← Till Kalles Quizportal</a><span class="eyebrow">Historia</span></nav>
+<header class="hero" id="homeHero"><h1>1800-Tal: Industrialisering &amp; Imperialism</h1></header>
+<div class="modecards" id="homeChoices" role="group" aria-label="Välj övning">
+<button class="mode" id="chooseCards" type="button"><span class="ico" aria-hidden="true">▤</span><strong>Träna begrepp</strong></button>
+<button class="mode" id="chooseQuiz" type="button"><span class="ico" aria-hidden="true">✓</span><strong>Gör Quiz</strong></button>
+</div>
+<div class="exerciseBack hidden" id="exerciseBack"><button class="btn" id="backToHome" type="button">← Tillbaka till övningarna</button></div>
+<section id="cardsSection" class="hidden">
+<div class="training">
+<section class="panel"><h2 class="sectionTitle">Träna begrepp</h2><p class="sub">Vänd kortet och placera begreppet i rätt träningslåda.</p><div class="minihead"><span id="cardCounter">Kort 1 av 24</span><span id="cardMode">Alla begrepp</span></div><button id="flash" class="flash" type="button" aria-label="Vänd begreppskort"><span class="face" id="cardFace">Begrepp</span><strong id="cardContent"></strong><span class="tip">Klicka för att vända kortet ↻</span></button><div class="row flashActions"><button class="btn" id="prevCard">← Föregående</button><button class="btn primary" id="flipCard">Visa definition</button><button class="btn" id="nextCard">Nästa →</button></div><div class="sort hidden" id="sortArea"><p>Hur väl kan du begreppet?</p><div class="row"><button class="btn" data-box="1">Kan inte begreppet</button><button class="btn" data-box="2">Kan nästan begreppet</button><button class="btn" data-box="3">Kan begreppet</button></div></div></section>
+<aside class="panel"><h2 class="sectionTitle">Din träning</h2><p class="sub">Dina framsteg sparas automatiskt i den här webbläsaren.</p><div class="bar"><i id="cardBar"></i></div><div class="stat">Kan inte begreppet <b id="count1">0</b></div><div class="stat">Kan nästan begreppet <b id="count2">0</b></div><div class="stat">Kan begreppet <b id="count3">0</b></div><div class="stat">Inte tränade <b id="count0">24</b></div><p class="quiet">Repetera alla kort eller bara dem som du ännu inte lagt i ”Kan begreppet”.</p><div class="row"><button class="btn primary" id="allCards">Alla begrepp</button><button class="btn" id="reviewCards">Repetera svåra</button></div><button class="reset" id="resetCards">Nollställ min träning</button></aside>
+</div>
+<section class="catalog"><div class="cataloghead"><div><h3>Alla 24 begrepp</h3><p class="quiet">Öppna ett begrepp för att läsa definitionen.</p></div><input class="search" id="searchCards" type="search" placeholder="Sök begrepp…" aria-label="Sök begrepp"></div><div id="glossary" class="glossary"></div></section>
+<div class="listAction"><button class="btn primary" id="openTermList" type="button">Skapa begreppslista →</button></div>
+</section>
+<section id="quizSection" class="hidden">
+<div class="panel hidden" id="quizPlay"><div class="progressRow"><span id="quizCount">Fråga 1 av 20</span><span id="quizCorrect">0 rätt hittills</span></div><div class="progress"><i id="quizBar"></i></div><p class="quizInstructions">Du får 20 frågor slumpade ur frågebanken som består av <strong id="bankQuestionCount"></strong> frågor. Varje fråga har fyra alternativ och ett rätt svar. Efter ditt val får du direkt en förklaring. Frågebanken fylls på under momentet.</p><h2 class="question" id="questionText"></h2><div class="answers" id="answerList"></div><div class="feedback hidden" id="feedback" role="status" aria-live="polite"><strong id="feedbackTitle"></strong><p id="feedbackText"></p></div><div class="quizNav"><span class="quiet">Välj det alternativ du tycker är bäst.</span><button class="btn primary hidden" id="nextQuestion">Nästa fråga →</button></div></div>
+<div class="panel hidden" id="quizResults"><span class="eyebrow">Quiz avslutat</span><h2 class="sectionTitle">Ditt resultat</h2><div class="score" id="finalScore">0 / 20</div><p id="finalMessage" class="sub"></p><div class="resultGrid"><div><strong id="resultCorrect">0</strong><span>Rätt svar</span></div><div><strong id="resultWrong">0</strong><span>Fel svar</span></div><div><strong id="resultPercent">0 %</strong><span>Andel rätt</span></div></div><div class="row"><button class="btn primary" id="retryQuiz">Gör ett nytt quiz</button><button class="btn" id="showReview">Visa genomgång</button></div><div class="hidden" id="reviewList" style="margin-top:25px"></div></div>
+</section>
+
+<section id="termListSection" class="hidden">
+<div class="panel termListPanel">
+<h2 class="sectionTitle">Begreppslista</h2>
+<p class="sub">Alla begrepp och definitioner samlade på ett ställe.</p>
+<div class="termListActions"><button class="btn" id="backToCards" type="button">← Tillbaka till begreppsträningen</button><button class="btn primary" id="downloadTermPdf" type="button">Ladda ner som PDF</button></div>
+<div id="termListEntries" class="termListEntries"></div>
+</div>
+</section>
+</main>
+<script>
+'use strict';
+const CONTENT={
+  "cards": [
+    {
+      "id": "ir01",
+      "t": "Industrialisering",
+      "d": "Övergång från jordbruk och hantverk till maskinell tillverkning i fabriker. Den ökade produktionen och förändrade människors arbete."
+    },
+    {
+      "id": "ir02",
+      "t": "Industriella revolutionen",
+      "d": "Den stora omvandlingen från jordbruks- till industrisamhälle som började i Storbritannien omkring 1750 och förändrade arbete, produktion och transporter."
+    },
+    {
+      "id": "ir03",
+      "t": "Jordbrukssamhälle",
+      "d": "Samhälle där de flesta arbetar med jordbruk och bor på landsbygden. Det var utgångsläget före industrialiseringen."
+    },
+    {
+      "id": "ir05",
+      "t": "Självförsörjning",
+      "d": "Att tillverka eller odla mycket av det man själv behöver. När fler blev lönearbetare ökade behovet av att köpa industrivaror."
+    },
+    {
+      "id": "ir07",
+      "t": "Textilindustri",
+      "d": "Tillverkning av garn och tyg. Den var en av de första branscherna där maskiner kraftigt ökade produktionen."
+    },
+    {
+      "id": "ir08",
+      "t": "Spinning Jenny",
+      "d": "Spinnmaskin från 1760-talet som kunde spinna flera trådar samtidigt och ökade produktionen av garn."
+    },
+    {
+      "id": "ir09",
+      "t": "Mekanisering",
+      "d": "När maskiner ersätter eller effektiviserar handarbete. Det gjorde det möjligt att tillverka fler varor snabbare."
+    },
+    {
+      "id": "ir10",
+      "t": "James Hargreaves",
+      "d": "Engelsk uppfinnare som utvecklade Spinning Jenny på 1760-talet och effektiviserade garnproduktionen."
+    },
+    {
+      "id": "ir11",
+      "t": "Ångmaskin",
+      "d": "Maskin som omvandlar ånga till rörelse. Under sent 1700-tal började förbättrade ångmaskiner driva pumpar och fabriker och minskade beroendet av vattenkraft."
+    },
+    {
+      "id": "ir12",
+      "t": "James Watt",
+      "d": "Skotsk ingenjör som förbättrade ångmaskinen från 1760-talet. Det gjorde ångkraft mer användbar i industrin."
+    },
+    {
+      "id": "ir13",
+      "t": "Stenkol",
+      "d": "Bränsle som gav energi till ångmaskiner och järnframställning. Storbritanniens koltillgångar gynnade industrin."
+    },
+    {
+      "id": "ir14",
+      "t": "Järnmalm",
+      "d": "Råvara för att framställa järn. Järnet behövdes till maskiner, verktyg och järnvägar."
+    },
+    {
+      "id": "ir15",
+      "t": "Råvaror",
+      "d": "Material som används i tillverkning, exempelvis bomull, kol och järnmalm. Tillgången till råvaror var nödvändig för industrin."
+    },
+    {
+      "id": "ir17",
+      "t": "Arbetskraft",
+      "d": "Människor som arbetar. Jordbrukets effektivisering gjorde att fler kunde ta arbete i fabrikerna."
+    },
+    {
+      "id": "ir19",
+      "t": "Urbanisering",
+      "d": "När en allt större andel av befolkningen bor i städer. Under 1800-talet växte industristäderna när fler sökte fabriksarbete."
+    },
+    {
+      "id": "ir20",
+      "t": "Järnväg",
+      "d": "Transport på räls som fick sitt genombrott under tidigt 1800-tal. Den gjorde det snabbare och billigare att frakta råvaror och varor."
+    },
+    {
+      "id": "ir21",
+      "t": "Kolonialism",
+      "d": "När ett land kontrollerar andra områden. Brittiska kolonier gav tillgång till råvaror, marknader och handelsvinster."
+    },
+    {
+      "id": "ir22",
+      "t": "Slavhandel",
+      "d": "Handel med förslavade människor. Vinster från slavhandel och kolonial handel bidrog till kapital som kunde investeras."
+    },
+    {
+      "id": "ir23",
+      "t": "Upplysningen",
+      "d": "Idérörelse under 1700-talet som betonade förnuft, vetenskap och framsteg och bidrog till att uppfinningar uppmuntrades."
+    },
+    {
+      "id": "ir24",
+      "t": "Patentskydd",
+      "d": "Lagligt skydd för en uppfinning. Det kunde göra det mer lönsamt att utveckla ny teknik."
+    },
+    {
+      "id": "ir26",
+      "t": "Marknadsekonomi",
+      "d": "Ekonomi där utbud, efterfrågan och konkurrens påverkar produktion och priser. Den kunde stimulera företag att utvecklas."
+    },
+    {
+      "id": "ir27",
+      "t": "Frihandel",
+      "d": "Handel med få hinder, som tullar. Den kunde göra det lättare att köpa råvaror och sälja industrivaror."
+    },
+    {
+      "id": "ir28",
+      "t": "Politisk stabilitet",
+      "d": "Förutsägbara lagar och politiska förhållanden. Det kunde minska riskerna med att investera i fabriker."
+    },
+    {
+      "id": "ir29",
+      "t": "Äganderätt",
+      "d": "Rätten att äga och använda egendom. Skyddad äganderätt kunde göra företagare tryggare att investera."
+    }
+  ],
+  "questions": [
+  {
+    "id": "ir-q01",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Varför började industrialiseringen i Storbritannien under andra halvan av 1700-talet?",
+    "options": [
+      "Där fanns bland annat kol, järn, handel, investerare och nya uppfinningar",
+      "Landet hade Europas största befolkning och flest jordbrukare",
+      "Landet hade förbjudit import av råvaror från andra länder",
+      "Alla brittiska arbetare hade redan flyttat till städerna"
+    ],
+    "answer": 0,
+    "explanation": "Flera faktorer samverkade. Kol gav energi, järn användes till maskiner och handel och investeringar bidrog till utvecklingen.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q02",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Hur tillverkades mycket garn och tyg i Storbritannien före de stora textilfabrikerna?",
+    "options": [
+      "Genom spinning och vävning i hem och små verkstäder",
+      "I stora fabriker som drevs av elektriska motorer",
+      "I verkstäder där ånglok drev vävstolarna",
+      "Enbart i statligt ägda verkstäder i London"
+    ],
+    "answer": 0,
+    "explanation": "Före fabriksindustrins genombrott var hemproduktion och små verkstäder viktiga för textiltillverkningen.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q03",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Varför ökade brittiska företag användningen av bomull under 1700-talet?",
+    "options": [
+      "Efterfrågan på bomullstyg växte och maskiner gjorde tillverkningen effektivare",
+      "Bomull ersatte stenkol som bränsle i ångmaskiner",
+      "Bomull började brytas i brittiska gruvor",
+      "Bomull användes främst för att bygga järnvägsvagnar"
+    ],
+    "answer": 0,
+    "explanation": "Bomull var en viktig råvara för textilindustrin. En växande marknad och ny teknik ökade produktionen.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q04",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Vilken uppfinning utvecklade James Hargreaves på 1760-talet?",
+    "options": [
+      "Spinning Jenny, som kunde spinna flera trådar samtidigt",
+      "Den förbättrade ångmaskinen med separat kondensor",
+      "Det första ångloket på järnvägen Liverpool–Manchester",
+      "Den mekaniska vävstolen som patenterades 1785"
+    ],
+    "answer": 0,
+    "explanation": "Hargreaves utvecklade Spinning Jenny. James Watt förbättrade ångmaskinen, medan Edmund Cartwright utvecklade en mekanisk vävstol.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q05",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "En vävare i England omkring 1780 får tillgång till mycket mer garn än tidigare. Vilken utveckling förklarar det bäst?",
+    "options": [
+      "Spinnmaskiner som Spinning Jenny ökade garnproduktionen",
+      "Järnvägar transporterade färdiga tyger mellan städer",
+      "Ångfartyg gjorde att vävaren kunde arbeta snabbare",
+      "Nya gruvpumpar gjorde det lättare att bryta järn"
+    ],
+    "answer": 0,
+    "explanation": "Spinnmaskiner ökade mängden garn som kunde tillverkas. Det gav vävarna bättre tillgång till råvaran för tygproduktion.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q06",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "Varför kunde nya spinnmaskiner skapa problem för vissa som spann garn för hand?",
+    "options": [
+      "Maskinerna ökade produktionen och kunde minska efterfrågan på handspunnet garn",
+      "Maskinerna gjorde att bomull inte längre kunde användas",
+      "Maskinerna förbjöd människor att arbeta i hemmen",
+      "Maskinerna ökade alltid lönerna för alla handspinnare"
+    ],
+    "answer": 0,
+    "explanation": "När maskiner kunde producera mer garn billigare förändrades konkurrensen och försörjningen för dem som arbetade för hand.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q07",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Varför låg många tidiga brittiska textilfabriker vid floder?",
+    "options": [
+      "Strömmande vatten kunde driva vattenhjul och maskiner",
+      "Bomull odlades främst på flodstränder i England",
+      "Flodvattnet användes som bränsle i ångmaskiner",
+      "Engelsk lag krävde att alla fabriker låg vid en flod"
+    ],
+    "answer": 0,
+    "explanation": "Innan ångkraft blev vanlig drevs många fabriker med vattenkraft. Därför påverkade vattendrag var fabriker kunde byggas.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q08",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Vad användes tidiga ångmaskiner till i brittiska gruvor under 1700-talet?",
+    "options": [
+      "Att pumpa bort vatten så att gruvarbetare kunde komma åt kolet",
+      "Att smälta järnmalm direkt inne i gruvgångarna",
+      "Att transportera färdigt tyg till hamnarna",
+      "Att spinna bomull i gruvornas verkstäder"
+    ],
+    "answer": 0,
+    "explanation": "Ångdrivna pumpar höll gruvor torrare och gjorde det lättare att bryta kol på större djup.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q09",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Vad var en viktig följd av James Watts förbättringar av ångmaskinen från 1760-talet?",
+    "options": [
+      "Ångmaskiner blev mer bränslesnåla och kunde användas i fler verksamheter",
+      "Ångmaskiner började fungera utan kol eller annat bränsle",
+      "Ångmaskiner började ersätta järn med bomull i maskiner",
+      "Ångmaskiner gjorde att järnvägar redan fanns över hela Europa 1770"
+    ],
+    "answer": 0,
+    "explanation": "Watt förbättrade ångmaskinens effektivitet. Det gjorde ångkraft mer användbar inom industrin.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q10",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "En fabriksägare vill bygga en ny fabrik långt från en flod omkring år 1800. Vilken förändring gör detta lättare?",
+    "options": [
+      "Att ångmaskiner kan driva fabrikens maskiner",
+      "Att bomull börjar odlas i brittiska städer",
+      "Att kanalerna helt ersätter behovet av energi",
+      "Att järnmalm inte längre behövs i maskiner"
+    ],
+    "answer": 0,
+    "explanation": "Ångkraft gjorde fabriker mindre beroende av strömmande vatten och gav större frihet att välja plats.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q11",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Varför var stenkol så viktigt för industrialiseringen i Storbritannien?",
+    "options": [
+      "Det användes som bränsle för ångmaskiner och vid järnframställning",
+      "Det användes som råvara för att spinna bomullstråd",
+      "Det ersatte järn i tillverkningen av maskiner",
+      "Det gjorde att fabriker inte behövde transportera varor"
+    ],
+    "answer": 0,
+    "explanation": "Kol var en central energikälla för ångkraft och järnindustri. Storbritannien hade stora kolfyndigheter.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q12",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Varför ökade efterfrågan på järn under 1800-talets industrialisering?",
+    "options": [
+      "Järn behövdes till maskiner, verktyg, räls och lok",
+      "Järn användes i stället för bomull för att väva kläder",
+      "Järn ersatte kolet som bränsle i ångmaskiner",
+      "Järn blev den viktigaste råvaran i jordbrukets matproduktion"
+    ],
+    "answer": 0,
+    "explanation": "Maskiner, järnvägar och annan infrastruktur krävde stora mängder järn.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q13",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "En gruva får billigare transporter till ett järnbruk under 1800-talet. Vilken följd är mest rimlig?",
+    "options": [
+      "Järnbruket kan lättare få kol och malm och öka sin produktion",
+      "Järnbruket behöver inte längre någon energi",
+      "Gruvan måste sluta sälja till andra orter",
+      "Transporterna gör att järn inte längre används till maskiner"
+    ],
+    "answer": 0,
+    "explanation": "Billigare transporter kunde knyta ihop gruvor och järnbruk och sänka kostnaderna för industrins råvaror.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q14",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Hur kunde förändringar i det brittiska jordbruket under 1700-talet bidra till industrialiseringen?",
+    "options": [
+      "Mer effektiv odling kunde ge mer mat och frigöra arbetskraft till andra yrken",
+      "Jordbrukets förbättringar gjorde att behovet av mat minskade",
+      "Alla bönder började automatiskt arbeta som fabriksägare",
+      "Förbättringarna innebar att jordbruket helt ersattes av fabriker"
+    ],
+    "answer": 0,
+    "explanation": "Ökad produktivitet i jordbruket kunde försörja fler människor samtidigt som färre behövde arbeta på åkrarna.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q15",
+    "lesson": 1,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Vad menas med urbanisering i 1800-talets Storbritannien?",
+    "options": [
+      "Att en större andel av befolkningen flyttade till och bodde i städer",
+      "Att fabrikerna flyttades från städer till jordbruksbyar",
+      "Att fler människor började försörja sig enbart på jordbruk",
+      "Att städerna slutade växa när fabriker byggdes"
+    ],
+    "answer": 0,
+    "explanation": "Industrins arbetstillfällen lockade människor till städerna, vilket ökade andelen stadsbor.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q16",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Varför växte Manchester snabbt under 1800-talets första hälft?",
+    "options": [
+      "Staden blev ett centrum för bomullsindustri och fabriksarbete",
+      "Staden blev centrum för brittisk järnmalmsbrytning",
+      "Staden tog över Londons roll som huvudstad",
+      "Staden fick Europas första stora oljeindustri"
+    ],
+    "answer": 0,
+    "explanation": "Manchester växte genom bomulls- och textilindustrin, som drog till sig arbetare och handel.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q17",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "En familj lämnar landsbygden för Manchester omkring 1840. Vilken förändring är mest sannolik?",
+    "options": [
+      "Familjens försörjning blir mer beroende av lönearbete och inköp av varor",
+      "Familjen kan inte längre köpa mat eftersom handel saknas i städer",
+      "Alla i familjen får automatiskt kortare arbetsdagar",
+      "Familjen börjar tillverka alla sina kläder och redskap själva"
+    ],
+    "answer": 0,
+    "explanation": "I industristäderna försörjde sig många genom lönearbete och köpte varor som tidigare kunde ha tillverkats i hemmet.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q18",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Vilket påstående beskriver bäst arbetet i många brittiska textilfabriker under tidigt 1800-tal?",
+    "options": [
+      "Arbetet följde ofta fasta tider och kunde vara både långt och riskfyllt",
+      "Arbetarna bestämde alltid själva när maskinerna skulle köras",
+      "Endast fabriksägarna behövde följa bestämda arbetstider",
+      "Arbetet skedde främst utomhus och följde skördeperioderna"
+    ],
+    "answer": 0,
+    "explanation": "Fabriksarbete styrdes av maskiner och arbetstider. Långa dagar och olycksrisker var vanliga, även för kvinnor och barn.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q19",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Varför blev järnvägar viktiga för industrin under 1800-talet?",
+    "options": [
+      "De gjorde det lättare att frakta kol, råvaror och färdiga varor mellan orter",
+      "De ersatte omedelbart alla kanaler och alla fartyg",
+      "De användes framför allt för att driva fabrikernas vävstolar",
+      "De gjorde att företag inte längre behövde sälja sina produkter"
+    ],
+    "answer": 0,
+    "explanation": "Järnvägar kunde transportera stora mängder gods snabbare och knöt samman gruvor, fabriker och hamnar.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q20",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Vad var betydelsefullt med järnvägen mellan Liverpool och Manchester som öppnade 1830?",
+    "options": [
+      "Den visade hur ångdriven järnvägstrafik kunde förena en hamn med en industristad",
+      "Den var Europas första väg för hästdragna kärror",
+      "Den användes enbart för att transportera järnmalm från Sverige",
+      "Den gjorde att bomull inte längre behövde importeras"
+    ],
+    "answer": 0,
+    "explanation": "Liverpool var en viktig hamn och Manchester en stor industristad. Järnvägen underlättade både gods- och persontrafik.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q21",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Varför byggdes många kanaler i Storbritannien före järnvägarnas genombrott?",
+    "options": [
+      "De gjorde det billigare att transportera tungt gods som kol",
+      "De användes främst för att förse ångmaskiner med dricksvatten",
+      "De gjorde att fabriker kunde producera bomull utan import",
+      "De ersatte behovet av hamnar och fartyg på haven"
+    ],
+    "answer": 0,
+    "explanation": "Kanaler kunde frakta stora mängder tungt gods och var en viktig del av transportnätet före järnvägarna.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q22",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Varifrån kom en stor del av bomullen till brittiska textilfabriker under tidigt 1800-tal?",
+    "options": [
+      "Från odlingar utanför Storbritannien, särskilt i USA där förslavade människor arbetade",
+      "Från bomullsodlingar kring Manchester och Birmingham",
+      "Från brittiska kolgruvor där bomull utvanns",
+      "Från järnbruk i Wales som framställde bomull av malm"
+    ],
+    "answer": 0,
+    "explanation": "Storbritannien importerade mycket råbomull, inte minst från den amerikanska södern där slavarbete var centralt för produktionen.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q23",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "En brittisk textilfabrik ökar sin produktion omkring 1820. Hur kan detta hänga ihop med slaveriet i USA?",
+    "options": [
+      "Fabriken kan använda bomull som odlats av förslavade människor på amerikanska plantager",
+      "Fabriken måste själv äga plantager för att få köpa bomull",
+      "Fabriken använder förslavade människor som bränsle till maskinerna",
+      "Fabriken kan bara sälja tyger om slaveriet har avskaffats"
+    ],
+    "answer": 0,
+    "explanation": "Bomull från slavplantager i den amerikanska södern var en viktig råvara för brittisk textilindustri.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q24",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Hur kunde det brittiska kolonialväldet gynna landets industri?",
+    "options": [
+      "Kolonier och handelsnätverk gav tillgång till råvaror och marknader",
+      "Kolonierna gjorde att Storbritannien slutade importera varor",
+      "Kolonierna gjorde brittiska fabriker oberoende av arbetskraft",
+      "Kolonierna förhindrade brittiska företag från att sälja varor utomlands"
+    ],
+    "answer": 0,
+    "explanation": "Imperiet och dess handelsförbindelser kunde ge råvaror, köpare och handelsvinster, ofta genom ojämlika maktförhållanden.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q25",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Vilket samband fanns mellan kolonial handel, slavhandel och brittisk industrialisering?",
+    "options": [
+      "Handelsvinster och råvaruflöden kunde bidra till investeringar och industriproduktion",
+      "Slavhandeln gjorde att Storbritannien inte behövde bygga fabriker",
+      "Kolonial handel innebar att all industri flyttades ut från Storbritannien",
+      "Handelsvinster användes bara till jordbruk och aldrig till industri"
+    ],
+    "answer": 0,
+    "explanation": "Kolonial handel och slavhandel ingick i ekonomiska nätverk som bidrog med råvaror och vinster. Industrialiseringen hade samtidigt flera andra orsaker.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q26",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Varför var Storbritanniens hamnar och handelsflotta viktiga för industrin?",
+    "options": [
+      "De kunde föra in råvaror och sälja brittiska industrivaror på andra marknader",
+      "De gjorde att brittiska fabriker bara kunde sälja inom landet",
+      "De användes främst för att ersätta kolgruvor med fartyg",
+      "De gjorde att järnvägar inte längre behövde byggas"
+    ],
+    "answer": 0,
+    "explanation": "Sjöhandeln band samman brittisk industri med internationella råvaror och köpare.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q27",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Samband",
+    "question": "Hur kunde upplysningens idéer påverka teknisk utveckling under 1700-talet?",
+    "options": [
+      "Intresset för vetenskap och praktiska experiment kunde uppmuntra nya lösningar",
+      "Upplysningen innebar att gamla tekniker inte fick ifrågasättas",
+      "Upplysningen gjorde att alla uppfinningar skapades av staten",
+      "Upplysningen förbjöd företagare att använda nya maskiner"
+    ],
+    "answer": 0,
+    "explanation": "Upplysningen betonade förnuft och vetenskap. Det kunde bidra till en miljö där experiment och uppfinningar värderades.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q28",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Historisk kunskap",
+    "question": "Varför kunde ett patent vara viktigt för en uppfinnare i Storbritannien under 1700-talet?",
+    "options": [
+      "Det kunde ge ensamrätt under en tid och göra det lättare att tjäna pengar på uppfinningen",
+      "Det innebar att staten automatiskt byggde en fabrik åt uppfinnaren",
+      "Det gav uppfinnaren rätt att förbjuda all konkurrens i branschen för alltid",
+      "Det garanterade att uppfinningen fungerade bättre än äldre teknik"
+    ],
+    "answer": 0,
+    "explanation": "Patentskydd kunde ge uppfinnare möjlighet att få avkastning på utvecklingsarbete, även om systemet inte garanterade framgång.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q29",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "En företagare funderar på att bygga en textilfabrik omkring 1800. Varför kan skyddad äganderätt spela roll?",
+    "options": [
+      "Företagaren kan känna större trygghet att investera i byggnader och maskiner",
+      "Företagaren behöver inte längre köpa råvaror eller betala löner",
+      "Företagaren får automatiskt ensamrätt att sälja alla tyger",
+      "Företagaren slipper konkurrens från andra fabriker"
+    ],
+    "answer": 0,
+    "explanation": "Om ägande och avtal skyddas av lag kan det minska riskerna med långsiktiga investeringar.",
+    "concepts": []
+  },
+  {
+    "id": "ir-q30",
+    "lesson": 2,
+    "section": "Industrialiseringens orsaker och följder",
+    "type": "Tillämpning och samband",
+    "question": "Vilken slutsats visar bäst varför industrialiseringen inte kan förklaras av en enda uppfinning?",
+    "options": [
+      "Maskiner fick större betydelse när de samverkade med energi, råvaror, arbetskraft och handel",
+      "Maskiner spelade ingen roll eftersom handeln redan var utvecklad",
+      "Industrialiseringen berodde främst på att alla britter flyttade samtidigt",
+      "Industrialiseringen hade varit likadan utan kol, järn eller transporter"
+    ],
+    "answer": 0,
+    "explanation": "Industrialiseringen växte fram genom flera samverkande förändringar. Tekniken behövde energi, material, människor och marknader.",
+    "concepts": []
+  }
+]
+};
+const CARDS=CONTENT.cards, BANK=CONTENT.questions, ROUND_SIZE=20;
+const $=id=>document.getElementById(id);
+$('bankQuestionCount').textContent=BANK.length;
+const shuffled=items=>{const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+// Varje fråga har ett lektionsnummer. Vid minst fyra lektioner används
+// 8 frågor från de två senaste, 6 från mitten och 6 från början.
+// Om en grupp har för få frågor fylls återstående platser från andra grupper.
+function pickQuestions(bank,limit=ROUND_SIZE){
+ const count=Math.min(limit,bank.length), lessons=[...new Set(bank.map(q=>q.lesson))].sort((a,b)=>a-b);
+ if(lessons.length<4)return shuffled(bank).slice(0,count);
+ const recent=new Set(lessons.slice(-2));
+ const oldestCount=Math.max(1,Math.floor((lessons.length-2)/2));
+ const early=new Set(lessons.slice(0,oldestCount));
+ const groups=[bank.filter(q=>recent.has(q.lesson)),bank.filter(q=>!recent.has(q.lesson)&&!early.has(q.lesson)),bank.filter(q=>early.has(q.lesson))];
+ const targets=[Math.round(count*.4),Math.round(count*.3),count-Math.round(count*.4)-Math.round(count*.3)];
+ const selected=[],used=new Set();
+ groups.forEach((group,i)=>{for(const q of shuffled(group).slice(0,targets[i])){selected.push(q);used.add(q.id)}});
+ for(const q of shuffled(bank)){if(selected.length>=count)break;if(!used.has(q.id)){selected.push(q);used.add(q.id)}}
+ return shuffled(selected);
+}
+function setMode(mode){const home=mode==='home',cards=mode==='cards';$('homeHero').classList.toggle('hidden',!home);$('homeChoices').classList.toggle('hidden',!home);$('exerciseBack').classList.toggle('hidden',home);$('cardsSection').classList.toggle('hidden',!cards);$('termListSection').classList.toggle('hidden',mode!=='list');$('quizSection').classList.toggle('hidden',mode!=='quiz');window.scrollTo(0,0);}
+$('chooseCards').onclick=()=>setMode('cards');$('chooseQuiz').onclick=()=>{setMode('quiz');startQuiz()};$('backToHome').onclick=()=>setMode('home');$('openTermList').onclick=()=>setMode('list');$('backToCards').onclick=()=>setMode('cards');$('downloadTermPdf').onclick=()=>window.print();
+// Begreppskort. Befintlig lagringsnyckel bevaras så tidigare träning finns kvar.
+const STORAGE_KEY='kalles-industriella-revolutionen-begrepp-v2';let stored={};try{stored=JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}')||{}}catch{}
+const boxes={};CARDS.forEach(c=>boxes[c.id]=[1,2,3].includes(stored[c.id])?stored[c.id]:0);
+let deck=CARDS.map(c=>c.id),cardIndex=0,flipped=false,cardFilter='all';
+function saveCards(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(boxes))}catch{}}
+function renderCards(){const counts=[0,0,0,0];CARDS.forEach(c=>counts[boxes[c.id]]++);counts.forEach((n,i)=>$('count'+i).textContent=n);$('cardBar').style.width=100*counts[3]/CARDS.length+'%';$('cardMode').textContent=cardFilter==='all'?'Alla begrepp':'Repetera svåra';if(!deck.length){$('cardCounter').textContent='Inga kort kvar';$('cardFace').textContent='Klart';$('cardContent').textContent='Du har lagt alla kort i ”Kan begreppet”.';$('sortArea').classList.add('hidden');['prevCard','nextCard','flipCard'].forEach(id=>$(id).disabled=true);return}cardIndex=(cardIndex+deck.length)%deck.length;const c=CARDS.find(c=>c.id===deck[cardIndex]);$('cardCounter').textContent=`Kort ${cardIndex+1} av ${deck.length}`;$('cardFace').textContent=flipped?'Definition':'Begrepp';$('cardContent').textContent=flipped?c.d:c.t;$('flash').classList.toggle('flipped',flipped);$('sortArea').classList.toggle('hidden',!flipped);$('flipCard').textContent=flipped?'Visa begrepp':'Visa definition';$('flipCard').disabled=false;$('prevCard').disabled=$('nextCard').disabled=deck.length<2;}
+function flip(){if(deck.length){flipped=!flipped;renderCards()}}
+function moveCard(step){if(deck.length){cardIndex=(cardIndex+step+deck.length)%deck.length;flipped=false;renderCards()}}
+function filterCards(which){cardFilter=which;deck=CARDS.filter(c=>which==='all'||boxes[c.id]!==3).map(c=>c.id);cardIndex=0;flipped=false;$('allCards').classList.toggle('primary',which==='all');$('reviewCards').classList.toggle('primary',which==='review');renderCards()}
+function sortCard(box){if(!deck.length)return;boxes[deck[cardIndex]]=box;saveCards();if(cardFilter==='review'&&box===3){deck.splice(cardIndex,1);if(cardIndex>=deck.length)cardIndex=0}else cardIndex=(cardIndex+1)%deck.length;flipped=false;renderCards()}
+$('flash').onclick=$('flipCard').onclick=flip;$('prevCard').onclick=()=>moveCard(-1);$('nextCard').onclick=()=>moveCard(1);document.querySelectorAll('[data-box]').forEach(b=>b.onclick=()=>sortCard(Number(b.dataset.box)));$('allCards').onclick=()=>filterCards('all');$('reviewCards').onclick=()=>filterCards('review');$('resetCards').onclick=()=>{if(confirm('Vill du nollställa din begreppsträning?')){CARDS.forEach(c=>boxes[c.id]=0);saveCards();filterCards('all')}};
+function renderGlossary(){const term=$('searchCards').value.toLocaleLowerCase('sv').trim();$('glossary').replaceChildren();for(const c of CARDS.filter(c=>(c.t+' '+c.d).toLocaleLowerCase('sv').includes(term))){const details=document.createElement('details'),summary=document.createElement('summary'),p=document.createElement('p');summary.textContent=c.t;p.textContent=c.d;details.append(summary,p);$('glossary').append(details)}}$('searchCards').oninput=renderGlossary;
+// Quiz: frågor och svarsalternativ blandas vid varje ny omgång.
+let round=[],at=0,score=0,answered=false,history=[];
+function showQuizScreen(which){for(const [key,id] of Object.entries({play:'quizPlay',results:'quizResults'}))$(id).classList.toggle('hidden',key!==which)}
+function startQuiz(){round=pickQuestions(BANK).map(q=>({...q,choices:shuffled(q.options.map((label,i)=>({label,originalIndex:i})))}));at=0;score=0;history=[];showQuizScreen('play');renderQuestion()}
+function renderQuestion(){answered=false;const q=round[at];$('quizCount').textContent=`Fråga ${at+1} av ${round.length}`;$('quizCorrect').textContent=`${score} rätt hittills`;$('quizBar').style.width=100*at/round.length+'%';$('questionText').textContent=q.question;$('answerList').replaceChildren();$('feedback').classList.add('hidden');$('feedback').classList.remove('bad');$('nextQuestion').classList.add('hidden');q.choices.forEach((choice,i)=>{const btn=document.createElement('button');btn.className='answer';btn.type='button';const letter=document.createElement('span'),label=document.createElement('span');letter.className='letter';letter.textContent='ABCD'[i];label.textContent=choice.label;btn.append(letter,label);btn.onclick=()=>chooseAnswer(i);$('answerList').append(btn)})}
+function chooseAnswer(index){if(answered)return;answered=true;const q=round[at],choice=q.choices[index],correct=choice.originalIndex===q.answer;if(correct)score++;history.push({q,chosen:choice.label,correct});[...$('answerList').children].forEach((btn,i)=>{btn.disabled=true;const isRight=q.choices[i].originalIndex===q.answer;btn.classList.toggle('correct',isRight);btn.classList.toggle('wrong',i===index&&!correct)});$('feedback').classList.remove('hidden');$('feedback').classList.toggle('bad',!correct);$('feedbackTitle').textContent=correct?'Rätt svar!':'Inte riktigt – här är förklaringen';$('feedbackText').textContent=q.explanation;$('quizCorrect').textContent=`${score} rätt hittills`;$('nextQuestion').textContent=at===round.length-1?'Visa resultat →':'Nästa fråga →';$('nextQuestion').classList.remove('hidden');}
+function nextQuestion(){if(!answered)return;if(at<round.length-1){at++;renderQuestion()}else finishQuiz()}
+function finishQuiz(){showQuizScreen('results');$('finalScore').textContent=`${score} / ${round.length}`;$('resultCorrect').textContent=score;$('resultWrong').textContent=round.length-score;$('resultPercent').textContent=Math.round(score/round.length*100)+' %';$('finalMessage').textContent=score===round.length?'Full pott! Du har visat mycket god förståelse.':score>=round.length*.75?'Bra jobbat! Läs gärna igenom de frågor du missade.':'Bra att du tränar! Använd genomgången för att se vilka begrepp du behöver repetera.';$('reviewList').classList.add('hidden');$('showReview').textContent='Visa genomgång';$('reviewList').replaceChildren();history.forEach((h,i)=>{const wrap=document.createElement('div'),title=document.createElement('h4'),chosen=document.createElement('p'),right=document.createElement('p'),expl=document.createElement('p');wrap.className='reviewItem';title.textContent=`${i+1}. ${h.q.question}`;chosen.textContent='Ditt svar: '+h.chosen;chosen.className=h.correct?'goodText':'badText';right.textContent='Rätt svar: '+h.q.options[h.q.answer];right.className='goodText';expl.textContent=h.q.explanation;wrap.append(title,chosen,right,expl);$('reviewList').append(wrap)});$('quizBar').style.width='100%'}
+$('retryQuiz').onclick=startQuiz;$('nextQuestion').onclick=nextQuestion;$('showReview').onclick=()=>{const hidden=$('reviewList').classList.toggle('hidden');$('showReview').textContent=hidden?'Visa genomgång':'Dölj genomgång'};
+function renderTermList(){const target=$('termListEntries');target.replaceChildren();CARDS.forEach((c,i)=>{const entry=document.createElement('article'),heading=document.createElement('h3'),definition=document.createElement('p');entry.className='termEntry';heading.textContent=`${i+1}. ${c.t}`;definition.textContent=c.d;entry.append(heading,definition);target.append(entry)})}
+renderCards();renderGlossary();renderTermList();
+</script>
+</body>
+</html>
